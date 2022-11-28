@@ -1,0 +1,64 @@
+@import "nullstyle.scss";
+@import "variables.scss";
+@import "mixin.scss";
+@import "templates/sample__img__block.scss";
+@import "templates/sample__img__block_title.scss";
+@import "templates/sample__text__block_description.scss";
+@import "templates/sample__text__block_proceed.scss";
+
+body{
+  background-color: black;
+}
+.wrapper{
+  position: relative;
+  .content{
+    width: 100%;
+    height: 2080px;
+    background-image: url("../img/img_bloks_bcg/block_1_bcg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.4;
+    position: fixed;
+    top:0;
+
+  }
+}
+header{
+
+}
+.header__img-logo{
+  display: block;
+  height: 40px;
+  width: 176px;
+  margin: (60em/14) auto (52em/14) ;
+}
+.header__nav{
+
+}
+.header__nav_ul{
+  max-width: (684em/14);
+  margin: 0 auto;
+  @include fz_ls( 0.785em , 1.3px );
+  &.ul_flex{
+    display: flex;
+    justify-content: space-between;
+
+  }
+}
+.header__nav_ul_li{
+  margin-bottom: 74px;
+  .header__nav_ul_li_a{
+  color: white;
+  }
+}
+main{
+  max-width: (800em/14);
+  margin: 0 auto;
+}
+.article__img_block{
+  background-image: url("../img/img__bloсks/block_1.jpg");
+  height: 330px;
+  width: 800px;
+
+}
