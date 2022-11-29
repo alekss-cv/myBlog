@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width , initial-scale=1.0 ">
     <title>My Blog</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="wrapper">
+    <div class="container_opacity">
     <header class="header">
         <img class="header__img-logo" alt="logo" src="../img/img-logo.svg">
         <nav class="header__nav">
@@ -26,14 +27,132 @@
     <main>
        <section class = "section">
            <article class = "article">
-               <div class="article__img_block">
+               <div class="article__img_block img_block_1">
+                   <div class="article__indication">Travel</div>
+                   <div class="article__content_block">
+                   <div class="article__grid_block">
+                       <div class="article__grid_block_icon block_icon_1"></div>
+                       <div class="article__grid_block_title">Luke Cage</div>
+                       <div class="article__grid_block_text">October 11, 2016</div>
+                   </div>
                 <h3 class = article__h3>The 10 most beautiful places you<br>
                     should visit in your life</h3>
+                   </div>
+               </div>
+               <div class="article__text_block"><p class = "article__p_text_block_description">Vestibulum ut placerat nisl. Cras sed purus tellus. Pellentesque habitant morbi<br>
+                   tristique senectus et netus et malesuada fames ac turpis egestas. Duis posuere nisi<br>
+                   sit amet neque finibus vestibulum. Vivamus at leo ut turpis posuere molestie. Nullam</p>
+                   <p class ="article__p_text_block_description_hidden" id = "hidden_text_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, minima.</p>
+                   <div class="article__p_text_block_proceed"><button class ="article__button_block_proceed" id="button_1" onclick="funShowText_1()" type="button">Continue Reading →</button></div>
+               </div>
+           </article>
+           <article class = "article">
+               <div class="article__img_block img_block_2">
+                   <div class="article__indication">Travel</div>
+                   <div class="article__content_block">
+                       <div class="article__grid_block">
+                           <div class="article__grid_block_icon block_icon_2"></div>
+                           <div class="article__grid_block_title">Luke Cage</div>
+                           <div class="article__grid_block_text">October 11, 2016</div>
+                       </div>
+                       <h3 class = article__h3>The 10 most beautiful places you<br>
+                           should visit in your life</h3>
+                   </div>
+               </div>
+               <div class="article__text_block"><p class = "article__p_text_block_description">Vestibulum ut placerat nisl. Cras sed purus tellus. Pellentesque habitant morbi<br>
+                   tristique senectus et netus et malesuada fames ac turpis egestas. Duis posuere nisi<br>
+                   sit amet neque finibus vestibulum. Vivamus at leo ut turpis posuere molestie. Nullam</p>
+                   <p class ="article__p_text_block_description_hidden" id = "hidden_text_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, minima.</p>
+                   <div class="article__p_text_block_proceed"><button class ="article__button_block_proceed " id="button_2" onclick="funShowText_2()" type="button">Continue Reading →</button></div>
+               </div>
+           </article>
+           <article class = "article">
+               <div class="article__img_block img_block_3">
+                   <div class="article__indication">Travel</div>
+                   <div class="article__content_block">
+                       <div class="article__grid_block">
+                           <div class="article__grid_block_icon block_icon_3"></div>
+                           <div class="article__grid_block_title">Luke Cage</div>
+                           <div class="article__grid_block_text">October 11, 2016</div>
+                       </div>
+                       <h3 class = article__h3>The 10 most beautiful places you<br>
+                           should visit in your life</h3>
+                   </div>
+               </div>
+               <div class="article__text_block"><p class = "article__p_text_block_description">Vestibulum ut placerat nisl. Cras sed purus tellus. Pellentesque habitant morbi<br>
+                   tristique senectus et netus et malesuada fames ac turpis egestas. Duis posuere nisi<br>
+                   sit amet neque finibus vestibulum. Vivamus at leo ut turpis posuere molestie. Nullam</p>
+                   <p class ="article__p_text_block_description_hidden" id = "hidden_text_3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, minima.</p>
+                   <div class="article__p_text_block_proceed"><button class ="article__button_block_proceed" id="button_3"  onclick="funShowText_3()" type="button">Continue Reading →</button></div>
                </div>
            </article>
        </section>
+        <div class="archive">
+            <div class="archive__block">
+                <p class = "archive__question">Want to read more?</p>
+                <button class = "archive__button_visit" type="button">Visit Blog Archive</button>
+            </div>
+        </div>
     </main>
-    <div class="content"></div>
+    </div>
+    <aside class = "featured">
+        <div class="featured__block">
+            <p class="featured__title">Featured Stories</p>
+            <p class="featured__text">Did you read our personal favorites?</p>
+            <div class="featured__flex">
+                <div>
+                <div class="featured__img_block img_block_1">
+                    <div class="featured__content_block">
+                        <div class="featured__grid_block">
+                            <div class="featured__grid_block_icon block_icon_1"></div>
+                            <div class="featured__grid_block_title">Luke Cage</div>
+                            <div class="featured__grid_block_text">October 11, 2016</div>
+                        </div>
+                        </div>
+                    </div>
+                <h3 class = featured__h3>The 10 most beautiful places you<br>
+                    should visit in your life</h3>
+                </div>
+                <div>
+                    <div class="featured__img_block img_block_1">
+                        <div class="featured__content_block">
+                            <div class="featured__grid_block">
+                                <div class="featured__grid_block_icon block_icon_2"></div>
+                                <div class="featured__grid_block_title">Luke Cage</div>
+                                <div class="featured__grid_block_text">October 11, 2016</div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class = featured__h3>The 10 most beautiful places you<br>
+                        should visit in your life</h3>
+                </div>
+                <div>
+                    <div class="featured__img_block img_block_1">
+                        <div class="featured__content_block">
+                            <div class="featured__grid_block">
+                                <div class="featured__grid_block_icon block_icon_3"></div>
+                                <div class="featured__grid_block_title">Luke Cage</div>
+                                <div class="featured__grid_block_text">October 11, 2016</div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class = featured__h3>The 10 most beautiful places you<br>
+                        should visit in your life</h3>
+                </div>
+            </div>
+            <p class = "feature__question">Want to read all of our stories? <spam><a href="#">Read the full blog</a></spam></p>
+        </div>
+    </aside>
+    <footer class ="footer" >
+        <div class="footer_block">
+            <p class = "footer__text_1 footer__text">Copyright © Explorer - Images used for demonstration purpose only ( <a href="#">Licenses</a> )</p>
+            <div class="footer__flex">
+                <p class = "footer__text_2 footer__text">Copyright ©<a href="#">Studio Corvus</a></p>
+                <p class = "footer__text_3 footer__text">Powered by<a href="#">Webflow</a></p>
+            </div>
+
+        </div>
+    </footer>
 </div>
 <script SRC="js/script.js"></script>
 </body>
