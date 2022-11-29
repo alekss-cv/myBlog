@@ -203,10 +203,10 @@ main {
   position: relative;
 }
 .article__img_block.img_block_1 {
-  background-image: url("/img/img__bloсks/block_1.png");
+  background-image: url("../img/img__bloсks/block_1.png");
 }
 .article__img_block.img_block_2 {
-  background-image: url("/img/img__bloсks/block_2.png");
+  background-image: url("img/img__bloсks/block_2.png");
 }
 .article__img_block.img_block_3 {
   background-image: url("/img/img__bloсks/block_3.png");
