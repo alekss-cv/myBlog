@@ -206,10 +206,10 @@ main {
   background-image: url("../img/img__bloсks/block_1.png");
 }
 .article__img_block.img_block_2 {
-  background-image: url("img/img__bloсks/block_2.png");
+  background-image: url("../img/img__bloсks/block_2.png");
 }
 .article__img_block.img_block_3 {
-  background-image: url("/img/img__bloсks/block_3.png");
+  background-image: url("../img/img__bloсks/block_3.png");
 }
 .article__text_block {
   background-color: white;
@@ -329,7 +329,7 @@ main {
   height: 190px;
 }
 .featured__img_block.img_block_1 {
-  background-image: url("/img/img__bloсks/block_1.png");
+  background-image: url("../img/img__bloсks/block_1.png");
 }
 
 .featured__h3 {
@@ -353,19 +353,19 @@ main {
 }
 
 .block_icon_1 {
-  background-image: url("/img/block_icons/icons_35px/block_icon_1.png");
+  background-image: url("../img/block_icons/icons_35px/block_icon_1.png");
   width: 35px;
   height: 35px;
 }
 
 .block_icon_2 {
-  background-image: url("/img/block_icons/icons_35px/block_icon_2.png");
+  background-image: url("../img/block_icons/icons_35px/block_icon_2.png");
   width: 35px;
   height: 35px;
 }
 
 .block_icon_3 {
-  background-image: url("/img/block_icons/icons_35px/block_icon_1.png");
+  background-image: url("../img/block_icons/icons_35px/block_icon_1.png");
   width: 35px;
   height: 35px;
 }
